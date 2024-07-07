@@ -1,0 +1,21 @@
+1707035746828	Copy file
+1707035763342	Rename resource 'ciconfig.xml'
+1707038125786	Delete element
+1707038147072	Move compilation unit
+1707038151111	Move compilation unit
+1707038163287	Copy compilation unit
+1707038168252	Copy file
+1707038174540	Copy compilation unit
+1707038179417	Copy compilation unit
+1707040618157	Copy file
+1707040637933	Rename resource 'autowireconfig.xml'
+1707057484762	Copy file
+1707057507159	Rename resource 'autowireconfig.xml'
+1707151486921	Rename package 'com.springcore.autowire.steriotype'
+1707151558747	Rename package 'com.springcore.constructorinjection.objectinj'
+1707151574045	Rename package 'com.springcore.constructorinjection'
+1707151596550	Rename package 'com.springcore.autowire.xml'
+1707151711676	Rename package 'com.springcore.xml.autowire'
+1707151759475	Rename package 'com.springcore.autowire.standalone.collection'
+1707203733250	Copy file
+1707204189103	Rename resource 'steriotypeconfig.xml'

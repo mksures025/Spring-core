@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ 		http://www.springframework.org/schema/beans/spring-beans.xsd
+ 		http://www.springframework.org/schema/context
+ 		http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+
+	<!-- 2. way to create setter -->
+	<bean class="com.te.springcore.collections.Employee" name="employee1">
+
+
+		<property name="name" value="Suresh" />
+
+		<property name="phones">
+			<list>
+				<value>98787478682</value>
+				<value>87347863002</value>
+				<value>83747837484</value>
+			</list>
+		</property>
+
+		<property name="addresses">
+			<set>
+				<value>chennai</value>
+				<value>bangalore</value>
+				<value>kerala</value>
+
+			</set>
+
+		</property>
+
+		<property name="courses">
+			<map>
+				<entry key="Java" value="2month" />
+				<entry key="Spring" value="2days" />
+				<entry key="SpringBoot" value="1day" />
+
+			</map>
+
+		</property>
+
+
+	</bean>
+
+
+
+</beans>
+
+
+

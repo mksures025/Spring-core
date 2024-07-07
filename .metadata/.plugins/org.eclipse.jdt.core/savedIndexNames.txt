@@ -1,0 +1,13 @@
+INDEX VERSION 1.134+D:\TECHNO-ELEVATE\TRAINING\Spring-core\.metadata\.plugins\org.eclipse.jdt.core
+1055325255.index
+2957969132.index
+3435290510.index
+3413725848.index
+1468007358.index
+581571981.index
+2961135160.index
+4229130315.index
+4020243871.index
+1865797976.index
+2599309205.index
+750133635.index

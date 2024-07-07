@@ -1,0 +1,44 @@
+package com.springcore.autowire.annotation;
+
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
+
+
+public class Employe{
+
+    @Autowired
+	@Qualifier("adress1")
+	private Address adress;
+
+	public Employe() {
+		super();
+		System.out.println("Empty construtor");
+	}
+
+	//@Autowired
+	public Employe(Address adress) {
+		super();
+		System.out.println("Constructor injection");
+		this.adress = adress;
+	}
+
+	
+	public Address getAdress() {
+		return adress;
+	}
+
+	public void setAdress(Address adress) {
+		
+		System.out.println("Setter injection");
+		this.adress = adress;
+	}
+
+	@Override
+	public String toString() {
+		return "Employe [adress=" + adress + "]";
+	}
+
+}
